@@ -23,6 +23,7 @@ body{
     display: flex;
     justify-content: space-around;
     width: 1750px;
+    margin-left: 80px;
 }
 
 .subtitle img{
@@ -34,7 +35,6 @@ body{
     display: flex;
     justify-content: flex-end;
     margin-left: 550px;
-    
     height: 380px;
 }
 
