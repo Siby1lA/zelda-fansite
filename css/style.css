@@ -7,6 +7,7 @@
 
 /* Screens */
 @import url('screens/index.css');
+@import url('screens/trailers.css');
 
 .main{
     background-image: url("/imgs/background.jpg");
@@ -19,5 +20,6 @@
 body{
     font-family: 'Do Hyeon', sans-serif;
     color: #FFF3DE;
+    
 }
 

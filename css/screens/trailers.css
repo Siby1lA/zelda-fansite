@@ -1,0 +1,54 @@
+
+
+.trailer-movies{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(0, 0, 0, 0.8);
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+}
+
+.trailler-movies__movies{
+    display: flex;
+    margin-top: 15px;
+    
+}
+
+.trailler-movies__movies-movie{
+    font-size: 20px;
+    width: 353px;
+    height: 115px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.trailler-movies__movies-movie:last-child{
+    margin-right: 0px;
+}
+
+.trailler-movies__movies-movie span{
+    margin-left: 18px;
+}
+
+.trailler-movies__movies-movie:hover{
+    border-top: 3px solid #2978B8;
+    color: #2978B8;
+}
+
+.line-border{
+    width: 1100px;
+    height: 5px;
+    margin-bottom: 100px;
+    border-bottom: 1px solid #c6ad7b;
+    margin-top: 10px;
+}
+
+.trailer-movies{
+    display: none;
+}
