@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="kr">
 <head>
-    <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" type="image/jpg" href="/imgs/zelda-icon.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" type="image/jpg" href="/imgs/zelda_icon.png">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,26 +14,27 @@
     <div class="main">
         <div class="header__logo">
             <img src="./imgs/logo.png" alt="main-logo">
+            <img class="logo1" src="./imgs/logo_wiiu.png" alt="main-logo">
+            <img class="logo2" src="./imgs/logo_switch.png" alt="main-logo">
         </div>
-        
+       
         <div class="subtitle">
             <img height="450" width="65" src="imgs/top_lead.png" alt="끝없는모험을마음가는대로">
             <div class="trailer-video">
-                <video class="trailer-video__src" width="660px" autoplay loop muted playsinline src="/imgs/trailer.mp4" type="video/mp4"></video>
+                <video class="trailer-video__src" width="660px" autoplay loop muted playsinline src="/videos/trailer.mp4" type="video/mp4"></video>
                 <div class="trailler-video__logo"><span>Trailer</span><i class="fab fa-youtube fa-lg"></i></div>
             </div>
         </div>
 
-        
     </div>
     
     <div class="nav">
-        <ul>
-            <li class="botw"><a href="index.html"><div class="nav-box">메인화면</div></a></li>
-            <li class="botw2"><a href="#"><div class="nav-box">게임배경</div></a></li>
-            <li class="sky"><a href="#"><div class="nav-box">게임BGM</div></a></li>
-            <li class="twilight"><a href="#"><div class="nav-box">DLC</div></a></li>
-            <li class="wind"><a href="#"><div class="nav-box">야생의 숨결 속편</div></a></li>
+        <ul class="nav-box">
+            <li class="botw"><a href="index.html">메인화면</a></li>
+            <li class="botw2"><a href="#">게임배경</a></li>
+            <li class="sky"><a href="#">게임BGM</a></li>
+            <li class="twilight"><a href="#">DLC</a></li>
+            <li class="wind"><a href="#">야생의 숨결 속편</a></li>
         </ul>
     </div>
 
@@ -42,10 +43,10 @@
     </div>
 
 
-
     <script
       src="https://kit.fontawesome.com/6478f529f2.js"
       crossorigin="anonymous"
     ></script>
+    <script src="js/main.js"></script>
 </body>
 </html>

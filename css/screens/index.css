@@ -1,0 +1,61 @@
+.header__logo{
+    padding-top: 30px;
+    position: relative;
+}
+
+.logo1{
+    position:absolute;
+    top: 0;
+    right: 80px;
+    padding-top: 15px;
+}
+
+.logo2{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.subtitle{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-left: 80px;
+}
+
+.subtitle img{
+    margin-left: 130px;
+}
+
+.trailer-video{
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 100px;
+    height: 380px;
+}
+
+.trailer-video__src{
+    border: 4px solid #FFF3DE;
+}
+
+.trailler-video__logo{
+    position: absolute;
+    bottom: 0;
+    font-size: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.trailler-video__logo span{
+    margin-bottom: 5px;
+}
+
+.footer{
+    background: black;
+    height: 300px;
+}
+

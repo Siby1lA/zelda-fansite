@@ -1,0 +1,23 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+
+/* Component */
+@import url('compoents/nav.css');
+@import url('reset.css');
+
+/* Screens */
+@import url('screens/index.css');
+
+.main{
+    background-image: url("/imgs/background.jpg");
+    background-size: 100%;
+    height: 850px;
+    width: 100%;
+}
+
+
+body{
+    font-family: 'Do Hyeon', sans-serif;
+    color: #FFF3DE;
+}
+
