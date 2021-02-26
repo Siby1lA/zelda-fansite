@@ -11,17 +11,29 @@
 
 <body>
     
+    <div class="header">
+        <img class="nintendo_logo logo" height="40px" src="/imgs/logo_nintendo.png" alt="logo_nintendo">
+        <div class="header__nav">
+            <ul class="header__nav-box">
+                <div class="header__nav-box__btn"><li><i class="fas fa-search"></i><span>검색</span></li></div>
+                <div class="header__nav-box__btn"><li><i class="fas fa-store-alt"></i><span>스토어</span></li></div>
+                <div class="header__nav-box__btn"><li><i class="far fa-user"></i><span>로그인</span></li></div>
+            </ul>
+        </div>
+    </div>
+
+
     <div class="main">
         <div class="header__logo">
             <img src="./imgs/logo.png" alt="main-logo">
-            <img class="logo1" src="./imgs/logo_wiiu.png" alt="main-logo">
-            <img class="logo2" src="./imgs/logo_switch.png" alt="main-logo">
+            <img class="logo1 logo" src="./imgs/logo_wiiu.png" alt="main-logo">
+            <img class="logo2 logo" src="./imgs/logo_switch.png" alt="main-logo">
         </div>
        
         <div class="subtitle">
             <img height="450" width="65" src="imgs/top_lead.png" alt="끝없는모험을마음가는대로">
             <div class="trailer-video">
-                <video class="trailer-video__src" width="660px" autoplay loop muted playsinline src="/videos/trailer.mp4" type="video/mp4"></video>
+                <video class="trailer-video__src" width="580px" autoplay loop muted playsinline src="/videos/trailer.mp4" type="video/mp4"></video>
                 <div class="trailler-video__logo"><span>Trailer</span><i class="fab fa-youtube fa-lg"></i></div>
             </div>
         </div>
@@ -38,13 +50,20 @@
     </div>
 
     <div class="footer">
-       
+       <div class="footer__contents">
+           <img width="800px" height="80px" src="imgs/bnr_korekara.png" alt="bnr_korekara">
+           <div class="footer__contents-release">
+               <img width="400px" height="35px" src="/imgs/top_info_txt.png" alt="top_info_txt">
+               <img width="200px" height="35px" src="/imgs/top_btn_buy.png" alt="top_btn_buy">
+           </div>
+       </div>
     </div>
 
     <div class="trailer-movies">
         <div class="trailer-movies__movie">
             <iframe width="1100" height="620" src="https://www.youtube.com/embed/GjPidZXIuzs" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture autoplay="0" allowfullscreen></iframe>
         </div>
+        <button>X</button>
         <div class="trailler-movies__movies">
             <div class="trailler-movies__movies-movie">
                 <img width="150px" height="85px" src="/imgs/movie_imgs/movie_thumb_01.jpg" alt="movie_imgs_01">
@@ -59,6 +78,7 @@
                 <span>3RD TRAILER</span>
             </div>
         </div>
+        
         <div class="line-border"></div>
     </div>
 

@@ -1,0 +1,31 @@
+.header{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    background-color: white;
+    justify-content: space-between;
+}
+
+.header__nav-box{
+    color: gray;
+    display: flex;
+    font-size: 14px;
+}
+
+.header__nav-box li i{
+    margin-right: 8px;
+}
+
+.header__nav-box__btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 40px;
+    margin-right: 5px;
+}
+
+.header__nav-box__btn:hover{
+    cursor: pointer;
+    color: tomato;
+}

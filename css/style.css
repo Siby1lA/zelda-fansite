@@ -4,6 +4,7 @@
 /* Component */
 @import url('compoents/nav.css');
 @import url('reset.css');
+@import url('compoents/header.css');
 
 /* Screens */
 @import url('screens/index.css');
@@ -12,7 +13,7 @@
 .main{
     background-image: url("/imgs/background.jpg");
     background-size: 100%;
-    height: 780px;
+    height: 730px;
     width: 100%;
 }
 

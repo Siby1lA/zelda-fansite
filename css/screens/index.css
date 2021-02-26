@@ -3,6 +3,10 @@
     position: relative;
 }
 
+.logo{
+    cursor: pointer;
+}
+
 .logo1{
     position:absolute;
     top: 0;
@@ -23,6 +27,7 @@
 
 .subtitle img{
     margin-left: 130px;
+    margin-top: -40px;
 }
 
 .trailer-video{
@@ -30,8 +35,9 @@
     display: flex;
     justify-content: flex-end;
     margin-left: 100px;
-    height: 380px;
+    height: fit-content;
     cursor: pointer;
+    margin-top: -30px;
     
 }
 
@@ -59,3 +65,17 @@
     height: 300px;
 }
 
+.footer__contents{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__contents img{
+    margin-top: 25px;
+}
+
+.footer__contents-release img:last-child{
+    margin-left: 20px;
+}
