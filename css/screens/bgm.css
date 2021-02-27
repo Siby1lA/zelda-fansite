@@ -2,3 +2,23 @@
     background-image: url(/imgs/bg_bgm.jpg);
     height: 855px;
 }
+
+.header__logo-jp{
+    padding: 0;
+    padding: 10px;
+}
+
+
+.bgm-contents{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.mamoru{
+    margin-top: -90px;
+}
+
+audio{
+    display: none;
+}
