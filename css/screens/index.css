@@ -21,24 +21,24 @@
 }
 
 .subtitle{
+
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .subtitle img{
-    margin-left: 130px;
-    margin-top: -40px;
+    position: absolute;
+    right: -330px;
+    top: 30px;
 }
 
 .trailer-video{
     position: relative;
     display: flex;
     justify-content: flex-end;
-    margin-left: 100px;
     height: fit-content;
     cursor: pointer;
-    margin-top: -30px;
-    
+    margin-top: -130px;
 }
 
 .trailer-video__src{
@@ -60,10 +60,6 @@
     margin-bottom: 5px;
 }
 
-.a a{
-    color: #2978B8;
-    border-bottom: 1px solid #2978B8;
-}
 
 .footer{
     background: black;

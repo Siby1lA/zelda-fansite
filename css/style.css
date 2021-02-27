@@ -9,12 +9,10 @@
 /* Screens */
 @import url('screens/index.css');
 @import url('screens/trailers.css');
-
+@import url('screens/bgm.css');
 .main{
-    background-image: url("/imgs/background.jpg");
-    background-size: 100%;
+    background-image: url("/imgs/background2.jpg");  
     height: 730px;
-    width: 100%;
 }
 
 

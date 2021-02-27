@@ -26,3 +26,8 @@
     color: #2978B8;
     border-bottom: 1px solid #2978B8;
 }
+
+.nav-fixed{
+    position: fixed;
+    bottom: 0;
+}
