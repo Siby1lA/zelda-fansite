@@ -19,6 +19,40 @@
     margin-top: -90px;
 }
 
+
+.bgms{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    
+    margin-top: -80px;
+    margin-right: 35px;
+}
+
+.bgms img{
+    width: 100px;
+    height: 100px;
+    
+}
+
+.bgm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 25px;
+    margin-bottom: 20px;
+}
+
+.bgm:hover{
+
+    color: #2978B8;
+}
+
+.bgm span{
+    margin-top: 10px;
+    font-size: 18px;
+}
+
 audio{
     display: none;
 }
