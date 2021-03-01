@@ -11,11 +11,28 @@
     text-align: center;
 }
 
+.chars__chara__names{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 260px;
+    border-top: 2px solid #c6ad7b;
+    border-bottom: 2px solid #c6ad7b;
+    
+}
+
 .chars__chara__name{
     display: flex;
     flex-direction: column;
-    background-color: rgba(0, 0, 0, 0.5);
     align-items: center;
-    justify-content: center;
-    height: 260px;
+    
+}
+
+.chars__chara__name img:first-child{
+    margin-right: 50px;
+}
+
+.char__link{
+    
 }
