@@ -1,0 +1,21 @@
+.main-bg{
+    background-image: url(/imgs/bg_bgm.jpg);
+    background-attachment: fixed;
+}
+
+.bg-contents div:nth-child(3){
+    margin-top: -50px;
+}
+
+.bg-contents{
+    text-align: center;
+}
+
+.chars__chara__name{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.5);
+    align-items: center;
+    justify-content: center;
+    height: 260px;
+}

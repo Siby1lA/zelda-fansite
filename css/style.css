@@ -10,6 +10,7 @@
 @import url('screens/index.css');
 @import url('screens/trailers.css');
 @import url('screens/bgm.css');
+@import url('screens/background.css');
 .main{
     background-image: url("/imgs/background2.jpg");  
     height: 730px;
