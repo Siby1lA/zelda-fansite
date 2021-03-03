@@ -3,36 +3,37 @@
     background-attachment: fixed;
 }
 
+
 .bg-contents div:nth-child(3){
     margin-top: -50px;
+    margin-bottom: 550px;
 }
 
 .bg-contents{
     text-align: center;
 }
 
-.chars__chara__names{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.chara_bg{
     background-color: rgba(0, 0, 0, 0.5);
     height: 260px;
     border-top: 2px solid #c6ad7b;
     border-bottom: 2px solid #c6ad7b;
-    
+    margin-bottom: 800px;
 }
 
-.chars__chara__name{
+
+
+.chars__chara-introduce{
     display: flex;
     flex-direction: column;
     align-items: center;
     
 }
 
-.chars__chara__name img:first-child{
+.chars__chara-introduce img:first-child{
     margin-right: 50px;
 }
 
-.char__link{
+.chara{
     
 }
