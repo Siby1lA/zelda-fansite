@@ -6,7 +6,7 @@
 
 .bg-contents div:nth-child(3){
     margin-top: -50px;
-    margin-bottom: 550px;
+    margin-bottom: 150px;
 }
 
 .bg-contents{
@@ -19,23 +19,28 @@
     height: 100vh;
     margin: 0 auto;
 }
-.chara_bg{
+.chara-bg{
     position: absolute;
     height: 280px;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.38);
     border-top: 2px solid #c6ad7b;
     border-bottom: 2px solid #c6ad7b;
+    margin-top: 320px;
     
 }
 
-
-
-.chars__chara-introduce{
-    position: absolute;
+.chara-introduce{
+    position: relative;
     width: 960px;
     height: 100vh;
     margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     
 }
 
+.chara-title h1{
+    margin-right: 45px;
+}
