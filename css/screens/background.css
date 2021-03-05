@@ -16,18 +16,8 @@
 .charas{
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     margin: 0 auto;
-}
-.chara-bg{
-    position: absolute;
-    height: 280px;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.38);
-    border-top: 2px solid #c6ad7b;
-    border-bottom: 2px solid #c6ad7b;
-    margin-top: 320px;
-    
 }
 
 .chara-introduce{
@@ -43,4 +33,50 @@
 
 .chara-title h1{
     margin-right: 45px;
+}
+
+
+.chara-bg,
+.chara-bg_2{
+    position: absolute;
+    height: 280px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.38);
+    border-top: 2px solid #c6ad7b;
+    border-bottom: 2px solid #c6ad7b;
+    margin-top: 320px;
+}
+
+.chara-bg_2{
+    margin-top: 0;
+    top: 1310px;
+}
+
+.chara-title_2{
+    position: absolute;
+    left: 550px;
+}
+
+.chara_img{
+    position: absolute;
+}
+
+.chara_img_1{
+    left: 300px;
+}
+
+.chara_img_2{
+    right: 300px;
+}
+
+.chara_img_3{
+    left: 200px;
+}
+
+.chara_img_4{
+    right: 350px;
+}
+
+.chara_img_5{
+    right: 120px;
 }
