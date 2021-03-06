@@ -1,0 +1,13 @@
+.main-dlc{
+    background-image: url(/imgs/dlc_imgs/bg_dlc.jpg);
+    background-attachment: fixed;
+    height: 2000px;
+}
+
+.dlc-contents{
+    text-align: center;
+}
+
+.dlc-title div:first-child{
+    margin-bottom: 20px;
+}
