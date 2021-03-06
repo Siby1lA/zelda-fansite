@@ -8,6 +8,11 @@
     text-align: center;
 }
 
+.dlc-title{
+    margin-bottom: 500px;
+    margin-top: -50px;
+}
+
 .dlc-title div:first-child{
     margin-bottom: 20px;
 }
