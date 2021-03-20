@@ -1,5 +1,5 @@
 .main-dlc{
-    background-image: url(/imgs/bg_dlc.jpg);
+    background-image: url("../bg_dlc.jpg");
     background-attachment: fixed;
     height: 2000px;
 }

@@ -1,5 +1,5 @@
 .main-bg{
-    background-image: url(/imgs/background.jpg);
+    background-image: url("../bg_bgm.jpg");
     background-attachment: fixed;
 }
 

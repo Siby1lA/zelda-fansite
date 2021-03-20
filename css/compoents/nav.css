@@ -1,6 +1,6 @@
 .nav{
     width: 100%;
-    background-image: url("/imgs/navback.png");
+    background-image: url("../navback.png");
 }
 
 .nav ul{
